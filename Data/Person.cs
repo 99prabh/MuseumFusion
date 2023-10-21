@@ -33,4 +33,13 @@ public class Person
     public Person()
     {
     }
+
+    /// <summary>
+    /// Returns a string representation of the Person object.
+    /// </summary>
+    /// <returns>A string containing the person's name, email address, and optional accommodations.</returns>
+    public override string ToString()
+    {
+        return "PERSON-> Name: " + this.Name + "; Email Address: " + this.EmailAddress + "; Special Accommodations (Optional): " + this.OptionalSpecialAccommodations + "\n";
+    }
 }
